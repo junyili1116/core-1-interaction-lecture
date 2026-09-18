@@ -1,6 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-  background-color: rgb(191, 249, 244);
+  background-color: rgb(144, 159, 227);
   min-height: 100vh;
   margin: 0;
   padding: 3rem 1.25rem;
@@ -13,6 +13,21 @@ h1 {
   margin-top: 0;
   padding-bottom: 0.6rem;
   border-bottom: 2px solid var(--rule);
+}
+  a
+  .moving-text {
+  animation: float 2s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 h2 { font-size: 1.45rem; }
 h3 { font-size: 1.15rem; }
