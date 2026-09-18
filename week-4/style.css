@@ -14,20 +14,5 @@ h1 {
   padding-bottom: 0.6rem;
   border-bottom: 2px solid var(--rule);
 }
-  a
-  .moving-text {
-  animation: float 2s ease-in-out infinite;
-}
-@keyframes float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 h2 { font-size: 1.45rem; }
 h3 { font-size: 1.15rem; }
