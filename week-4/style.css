@@ -1,4 +1,6 @@
 body {
-  background-color: gainsboro;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(191, 249, 244);
   min-height: 100vh;
+  
 }
