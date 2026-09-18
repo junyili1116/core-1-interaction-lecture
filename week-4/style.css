@@ -1,5 +1,9 @@
 body {
-
-  background-color: rgb(226, 121, 121);
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(191, 249, 244);
   min-height: 100vh;
+  margin: 0;
+  padding: 3rem 1.25rem;
+  font-size: 17px;
+  line-height: 1.65;
 }
